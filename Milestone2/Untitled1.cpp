@@ -14,6 +14,12 @@ int dist(int x1,int y1,int x2 , int y2)
     return (sqrt(pow(x2-x1,2)+pow(y2-y1,2)));
 }
 
+bool check_border(int x,int y,int d)
+{
+		//if(dist(0,0,))
+		//this is to check whether other co-ordinates present within r(radius) distance
+}
+
 void move_right(int d,int r,pair<int,int> c,pair<int,int> start,pair<int,int> id,vector<pair<int,int>> &ans,vector<pair<int,int>> &ind)
 {
     int check=0;
